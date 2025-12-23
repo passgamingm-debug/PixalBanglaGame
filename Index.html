@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixal Bangla Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* --- General Styling Variables --- */
+        :root {
+            --primary-color: #38a169; /* A clear green for the title */
+            --text-color: #f0f0f0;
+            --card-bg: rgba(0, 0, 0, 0.85); /* Semi-transparent dark background for the card */
+            --border-color: #1a4d31; /* Darker green for separators */
+        }
+
+        /* --- Body/Background Styling --- */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Set the user-provided background image */
+            background-image: url('https://i.postimg.cc/CKyZtbcZ/grok-image-ks78h4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            /* Center the content vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color);
+            padding: 20px;
+        }
+
+        /* --- Main Content Card Styling --- */
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        /* --- Title Styling --- */
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(56, 161, 105, 0.5);
+        }
+
+        /* --- Detail/Mission Section Styling --- */
+        .detail-section {
+            margin: 25px 0;
+            line-height: 1.6;
+            font-size: 1.1em;
+            font-style: italic;
+            color: #b0b0b0;
+        }
+
+        /* --- Social Links Styling --- */
+        .social-links {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .social-links a {
+            color: var(--text-color);
+            font-size: 2.5em;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        .social-links a:hover {
+            color: var(--primary-color);
+            transform: scale(1.1);
+        }
+
+        /* --- Description/About Section Styling --- */
+        .description-section {
+            text-align: left;
+            font-size: 0.95em;
+            margin-top: 30px;
+        }
+
+        .description-section p {
+            margin-bottom: 15px;
+        }
+
+        .description-section ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .description-section strong {
+            color: var(--primary-color);
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* --- Footer/Copyright Styling --- */
+        .footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85em;
+            color: #707070;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pixal Bangla Studio</h1>
+
+        <p class="detail-section">
+            Our mission: To fill the gap for high-quality Bangla games, showcase unique ideas, and bring Bangladeshi gaming culture to the world stage.
+        </p>
+
+        <div class="social-links">
+            <a href="https://discord.gg/zJCuXCz6k" target="_blank" title="Join our Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://youtube.com/@pixal_bangla_studio?si=HlWnt_PYO_1HdXV" target="_blank" title="YouTube - Pixal Bangla Studio">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://youtube.com/@fungamingmc?si=HjlaG7EdJoyw-DoC" target="_blank" title="YouTube - Fun Gaming MC">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+
+        <div class="description-section">
+            <p><strong>About the Studio:</strong></p>
+            <p>Pixal Bangla Studio is an independent game development studio, where I single-handedly handle every aspect of game creation. From conceptualizing ideas, designing, coding, creating graphics and sound, to testing and releasing—every step is done personally.</p>
+            
+            <p><strong>The Studio’s Main Goals are to:</strong></p>
+            <ul>
+                <li>Create unique, smooth, and engaging experiences for players.</li>
+                <li>Incorporate Bangla language, culture, characters, and folklore into games.</li>
+                <li>Showcase the capabilities of Bangladeshi developers globally.</li>
+            </ul>
+            
+            <p>Ultimately, the goal is not just to make games, but to create experiences that delight players, keep them engaged, and bring them back for more. Pixal Bangla Studio – Crafting games for Bangladesh, powered by one person’s passion.</p>
+        </div>
+
+        <div class="footer">
+            &copy;2025 All Rights Reserved to Pixal Bangla Studio
+        </div>
+    </div>
+</body>
+  </html>
